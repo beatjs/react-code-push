@@ -1,0 +1,9 @@
+
+platform :ios, '11.0'
+
+use_frameworks!
+
+target 'ReactCodePush' do
+	pod 'react-code-push', :path => '../'
+end
+
