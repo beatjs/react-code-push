@@ -1,4 +1,4 @@
-package com.beatjs.reactcodepush;
+package com.beatjs.react.codepush;
 
 import java.util.Arrays;
 import java.util.Collections;
