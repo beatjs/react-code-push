@@ -5,105 +5,21 @@ PODS:
   - glog (0.3.4)
   - JWT (3.0.0-beta.12):
     - Base64 (~> 1.1.2)
-  - react-code-push (0.0.1):
+  - react-code-push/framework (1.1.0):
     - Base64 (~> 1.1)
     - JWT (~> 3.0.0-beta.12)
-    - react-ios (~> 0.63.4.0)
+    - react-ios/framework (~> 0.63.4.2)
     - SSZipArchive (~> 2.2.2)
-  - react-ios (0.63.4.1):
-    - react-ios/All (= 0.63.4.1)
-  - react-ios/All (0.63.4.1):
-    - react-ios/callinvoker
-    - react-ios/cxxreact
-    - react-ios/Default
-    - react-ios/FBLazyVector
-    - react-ios/folly
-    - react-ios/jsi
-    - react-ios/jsiexecutor
-    - react-ios/jsinspector
-    - react-ios/RCTAnimation
-    - react-ios/RCTBlob
-    - react-ios/RCTImage
-    - react-ios/RCTLinking
-    - react-ios/RCTNetwork
-    - react-ios/RCTRequired
-    - react-ios/RCTSettings
-    - react-ios/RCTText
-    - react-ios/RCTVibration
-  - react-ios/callinvoker (0.63.4.1)
-  - react-ios/cxxreact (0.63.4.1):
+  - react-ios/framework (0.63.4.2):
     - boost-for-react-native (= 1.63.0)
     - DoubleConversion (= 1.1.5)
     - glog (= 0.3.4)
-    - react-ios/callinvoker
-    - react-ios/folly
-    - react-ios/jsinspector
-  - react-ios/Default (0.63.4.1):
-    - glog (= 0.3.4)
-    - react-ios/callinvoker
-    - react-ios/cxxreact
-    - react-ios/FBLazyVector
-    - react-ios/folly
-    - react-ios/jsi
-    - react-ios/jsiexecutor
-    - react-ios/jsinspector
-    - react-ios/RCTRequired
     - Yoga (= 1.14.0)
-  - react-ios/FBLazyVector (0.63.4.1)
-  - react-ios/folly (0.63.4.1):
-    - boost-for-react-native (= 1.63.0)
-    - DoubleConversion (= 1.1.5)
-    - glog (= 0.3.4)
-  - react-ios/jsi (0.63.4.1):
-    - boost-for-react-native (= 1.63.0)
-    - DoubleConversion (= 1.1.5)
-    - glog (= 0.3.4)
-    - react-ios/folly
-  - react-ios/jsiexecutor (0.63.4.1):
-    - DoubleConversion (= 1.1.5)
-    - glog (= 0.3.4)
-    - react-ios/cxxreact
-    - react-ios/folly
-    - react-ios/jsi
-  - react-ios/jsinspector (0.63.4.1)
-  - react-ios/RCTAnimation (0.63.4.1):
-    - react-ios/Default
-    - react-ios/folly
-    - react-ios/jsi
-  - react-ios/RCTBlob (0.63.4.1):
-    - react-ios/Default
-    - react-ios/folly
-    - react-ios/jsi
-    - react-ios/RCTNetwork
-  - react-ios/RCTImage (0.63.4.1):
-    - react-ios/Default
-    - react-ios/folly
-    - react-ios/jsi
-    - react-ios/RCTNetwork
-  - react-ios/RCTLinking (0.63.4.1):
-    - react-ios/Default
-    - react-ios/folly
-    - react-ios/jsi
-  - react-ios/RCTNetwork (0.63.4.1):
-    - react-ios/Default
-    - react-ios/folly
-    - react-ios/jsi
-  - react-ios/RCTRequired (0.63.4.1)
-  - react-ios/RCTSettings (0.63.4.1):
-    - react-ios/Default
-    - react-ios/folly
-    - react-ios/jsi
-  - react-ios/RCTText (0.63.4.1):
-    - react-ios/Default
-  - react-ios/RCTVibration (0.63.4.1):
-    - react-ios/Default
-    - react-ios/folly
-    - react-ios/jsi
   - SSZipArchive (2.2.3)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
-  - react-code-push (from `../`)
+  - react-code-push/framework (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -126,11 +42,11 @@ SPEC CHECKSUMS:
   DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
   glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
   JWT: 9b5c05abbcc1a0e69c3c91e1655b3387fc7e581d
-  react-code-push: f0b1f8e364b3349d304db878ede9beb2cca6ce27
-  react-ios: a25cc4b54d365fe466a430aec8a8c4ec4a0b5ce0
+  react-code-push: b5925265c1181d6d9a7993967ffc5569d0fa8266
+  react-ios: f4923aa25bd65ebfba4134b7a76f7204f2fa8204
   SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
   Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
 
-PODFILE CHECKSUM: 5ac34a644c2b69982c2a3049bc9700e6218ff773
+PODFILE CHECKSUM: 846bec7633dd298c44956504e56bd033826630b4
 
 COCOAPODS: 1.10.1
