@@ -19,7 +19,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install CocoaPods
-      run: pod --version
-    - run: cd ios/
+      run: | 
+        pod --version
+        cd ios
+        pod install --repo-update
     - name: Xcode build
-      run: xcodebuild build
+      run: | 
+        cd ios
+        xcodebuild build
