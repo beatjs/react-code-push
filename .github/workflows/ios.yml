@@ -18,8 +18,8 @@ jobs:
         destination: ["OS=14.4,name=iPhone 12 Pro"] #, "OS=12.4,name=iPhone XS", "OS=11.4,name=iPhone X", "OS=10.3.1,name=iPhone SE"]
     steps:
     - uses: actions/checkout@v2
-    - run: cd ios
     - name: Install CocoaPods
       run: pod --version
+    - run: cd ios/
     - name: Xcode build
       run: xcodebuild build
