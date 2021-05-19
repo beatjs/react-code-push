@@ -1,5 +1,7 @@
 # react-code-push
 
+[![iOS CI with Xcode](https://github.com/beatjs/react-code-push/actions/workflows/ios.yml/badge.svg?branch=main)](https://github.com/beatjs/react-code-push/actions/workflows/ios.yml)
+
 ## Getting started
 
 `$ npm install react-code-push --save`
