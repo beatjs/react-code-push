@@ -26,5 +26,5 @@ jobs:
         chmod +x gradlew
     - name: Build with Gradle
       run: | 
-        cd androdi
+        cd android
         ./gradlew build
