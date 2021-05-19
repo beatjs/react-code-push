@@ -1,4 +1,4 @@
-name: iOS CI with Xcode
+name: iOS CI
 
 on:
   push:
