@@ -1,4 +1,4 @@
-name: iOS CI with Xcodebuild
+name: iOS CI with Xcode
 
 on:
   push:
@@ -20,5 +20,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install CocoaPods
       run: pod --version
-    - name: Xcodebuild
+    - name: Xcode build
       run: xcodebuild build
