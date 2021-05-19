@@ -1,6 +1,7 @@
 # react-code-push
 
 [![iOS CI with Xcode](https://github.com/beatjs/react-code-push/actions/workflows/ios.yml/badge.svg?branch=main)](https://github.com/beatjs/react-code-push/actions/workflows/ios.yml)
+[![Adnroid CI with Gradle](https://github.com/beatjs/react-code-push/actions/workflows/android.yml/badge.svg?branch=main)](https://github.com/beatjs/react-code-push/actions/workflows/android.yml)
 
 ## Getting started
 
