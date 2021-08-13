@@ -13,16 +13,12 @@ Pod::Spec.new do |s|
   s.platforms = { :ios => "11.0" }
   s.module_name = "CodePush"
   s.source = { :git => "https://github.com/beatjs/react-code-push.git", :tag => s.version.to_s }
-
-  s.default_subspec = 'source'
-  
-  s.subspec 'framework' do |ss|
-    ss.vendored_frameworks = "ios/Framework/#{s.module_name}.xcframework"
-    ss.dependency "react-ios", "~> 0.63.4.4"
-    ss.dependency 'SSZipArchive', '~> 2.2.2'
-    ss.dependency 'JWT', '~> 3.0.0-beta.12'
-    ss.dependency 'Base64', '~> 1.1'
-  end
+	
+  s.vendored_frameworks = "ios/Framework/#{s.module_name}.xcframework"
+  s.dependency "react-ios", "~> 0.63.4.4"
+  s.dependency 'SSZipArchive', '~> 2.2.2'
+  s.dependency 'JWT', '~> 3.0.0-beta.12'
+  s.dependency 'Base64', '~> 1.1'
 
 end
 
