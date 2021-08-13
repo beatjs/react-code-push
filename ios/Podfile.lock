@@ -2,7 +2,7 @@ PODS:
   - Base64 (1.1.2)
   - JWT (3.0.0-beta.14):
     - Base64 (~> 1.1.2)
-  - react-code-push/framework (1.2.0):
+  - react-code-push (1.2.0):
     - Base64 (~> 1.1)
     - JWT (~> 3.0.0-beta.12)
     - react-ios (~> 0.63.4.4)
@@ -11,7 +11,7 @@ PODS:
   - SSZipArchive (2.2.3)
 
 DEPENDENCIES:
-  - react-code-push/framework (from `../`)
+  - react-code-push (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -27,10 +27,10 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
   JWT: ef71dfb03e1f842081e64dc42eef0e164f35d251
-  react-code-push: 95e43cbf07575b9375852928e808e83d893dcce0
+  react-code-push: 74d8766db0c34e8726f9f1d7bdf0d7a45048344c
   react-ios: 1982bce522b6657b674b46226f89fb02f4fb3566
   SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
 
-PODFILE CHECKSUM: 846bec7633dd298c44956504e56bd033826630b4
+PODFILE CHECKSUM: 5ac34a644c2b69982c2a3049bc9700e6218ff773
 
 COCOAPODS: 1.10.1
