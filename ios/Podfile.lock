@@ -1,22 +1,14 @@
 PODS:
   - Base64 (1.1.2)
-  - boost-for-react-native (1.63.0)
-  - DoubleConversion (1.1.5)
-  - glog (0.3.4)
-  - JWT (3.0.0-beta.12):
+  - JWT (3.0.0-beta.14):
     - Base64 (~> 1.1.2)
-  - react-code-push/framework (1.1.0):
+  - react-code-push/framework (1.2.0):
     - Base64 (~> 1.1)
     - JWT (~> 3.0.0-beta.12)
-    - react-ios/framework (~> 0.63.4.2)
+    - react-ios (~> 0.63.4.4)
     - SSZipArchive (~> 2.2.2)
-  - react-ios/framework (0.63.4.2):
-    - boost-for-react-native (= 1.63.0)
-    - DoubleConversion (= 1.1.5)
-    - glog (= 0.3.4)
-    - Yoga (= 1.14.0)
+  - react-ios (0.63.4.4)
   - SSZipArchive (2.2.3)
-  - Yoga (1.14.0)
 
 DEPENDENCIES:
   - react-code-push/framework (from `../`)
@@ -24,13 +16,9 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Base64
-    - boost-for-react-native
-    - DoubleConversion
-    - glog
     - JWT
     - react-ios
     - SSZipArchive
-    - Yoga
 
 EXTERNAL SOURCES:
   react-code-push:
@@ -38,14 +26,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
-  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
-  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
-  glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
-  JWT: 9b5c05abbcc1a0e69c3c91e1655b3387fc7e581d
-  react-code-push: b5925265c1181d6d9a7993967ffc5569d0fa8266
-  react-ios: f4923aa25bd65ebfba4134b7a76f7204f2fa8204
+  JWT: ef71dfb03e1f842081e64dc42eef0e164f35d251
+  react-code-push: 95e43cbf07575b9375852928e808e83d893dcce0
+  react-ios: 1982bce522b6657b674b46226f89fb02f4fb3566
   SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
-  Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
 
 PODFILE CHECKSUM: 846bec7633dd298c44956504e56bd033826630b4
 
