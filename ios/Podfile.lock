@@ -5,9 +5,9 @@ PODS:
   - react-code-push (1.2.1):
     - Base64 (~> 1.1)
     - JWT (~> 3.0.0-beta.12)
-    - react-ios (~> 0.63.4.4)
+    - react-ios (~> 0.64.2.0)
     - SSZipArchive (~> 2.2.2)
-  - react-ios (0.63.4.4)
+  - react-ios (0.64.2.0)
   - SSZipArchive (2.2.3)
 
 DEPENDENCIES:
