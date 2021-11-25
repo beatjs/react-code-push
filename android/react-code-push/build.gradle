@@ -28,10 +28,11 @@ android {
 repositories {
     google()
     jcenter()
-    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    implementation 'com.github.beatjs:react-android:0.63.4.+'
+    implementation 'com.beatjs.android:react-native:0.64.2.0'
     implementation 'com.nimbusds:nimbus-jose-jwt:5.1'
 }
+
+apply from:'release.gradle'
