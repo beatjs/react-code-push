@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name = "react-code-push"
-  s.version = "1.4.0"
+  s.version = "1.6.0"
   s.summary = "An runtime base on react-native."
   s.description =
   <<-DESC
