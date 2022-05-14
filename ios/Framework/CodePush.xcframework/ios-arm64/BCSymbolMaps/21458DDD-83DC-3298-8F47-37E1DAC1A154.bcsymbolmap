@@ -1,9 +1,12 @@
 BCSymbolMap Version: 2.0
-Apple clang version 12.0.0 (clang-1200.0.32.28)
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk
-iPhoneOS14.3.sdk
-/Users/xujia/Library/Developer/Xcode/DerivedData/ReactCodePush-ciipztxxwatxyqfgfgjsbpehumbp/Build/Intermediates.noindex/ArchiveIntermediates/react-code-push/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/react-code-push.build/DerivedSources/CodePush_vers.c
-/Users/xujia/Documents/GitHub/react-code-push/ios/Pods
+Apple clang version 12.0.5 (clang-1205.0.22.11)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk
+iPhoneOS14.5.sdk
+/Users/xujia/Library/Developer/Xcode/DerivedData/HycanReactNative-abkpycxbeeoczehaqaexgjdqhnbc/Build/Intermediates.noindex/ArchiveIntermediates/CodePush/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CodePush.build/DerivedSources/CodePush_vers.c
+/Users/xujia/Developer/Hycan/HycanReactNative/ios/Pods
+__OBJC_METACLASS_RO_$_PodsDummy_CodePush
+__OBJC_CLASS_RO_$_PodsDummy_CodePush
+/Users/xujia/Developer/Hycan/HycanReactNative/ios/Pods/Target Support Files/CodePush/CodePush-dummy.m
 +[CodePush moduleName]
 +[CodePush load]
 +[CodePush initialize]
@@ -50,7 +53,7 @@ ___22-[CodePush loadBundle]_block_invoke
 -[CodePush applicationWillEnterForeground]
 -[CodePush applicationWillResignActive]
 -[CodePush loadBundleOnTick:]
-+[CodePush __rct_export__711376]
++[CodePush __rct_export__7110]
 -[CodePush downloadUpdate:notifyProgress:resolver:rejecter:]
 ___60-[CodePush downloadUpdate:notifyProgress:resolver:rejecter:]_block_invoke
 ___60-[CodePush downloadUpdate:notifyProgress:resolver:rejecter:]_block_invoke.237
@@ -59,39 +62,39 @@ ___destroy_helper_block_e8_32s40s48s
 ___60-[CodePush downloadUpdate:notifyProgress:resolver:rejecter:]_block_invoke.249
 ___copy_helper_block_e8_32s40s48b
 -[CodePush restartAppInternal:]
-+[CodePush __rct_export__806377]
++[CodePush __rct_export__8061]
 -[CodePush getConfiguration:rejecter:]
-+[CodePush __rct_export__841378]
++[CodePush __rct_export__8412]
 -[CodePush getUpdateMetadata:resolver:rejecter:]
-+[CodePush __rct_export__891379]
++[CodePush __rct_export__8913]
 -[CodePush installUpdate:installMode:minimumBackgroundDuration:resolver:rejecter:]
-+[CodePush __rct_export__942380]
++[CodePush __rct_export__9424]
 -[CodePush isFailedUpdate:resolve:reject:]
-+[CodePush __rct_export__950381]
++[CodePush __rct_export__9505]
 -[CodePush setLatestRollbackInfo:resolve:reject:]
-+[CodePush __rct_export__958382]
++[CodePush __rct_export__9586]
 -[CodePush getLatestRollbackInfo:rejecter:]
-+[CodePush __rct_export__970383]
++[CodePush __rct_export__9707]
 -[CodePush isFirstRun:resolve:rejecter:]
-+[CodePush __rct_export__985384]
++[CodePush __rct_export__9858]
 -[CodePush notifyApplicationReady:rejecter:]
-+[CodePush __rct_export__992385]
++[CodePush __rct_export__9929]
 -[CodePush allow:rejecter:]
-+[CodePush __rct_export__1008386]
++[CodePush __rct_export__100810]
 -[CodePush clearPendingRestart:rejecter:]
-+[CodePush __rct_export__1015387]
++[CodePush __rct_export__101511]
 -[CodePush disallow:rejecter:]
-+[CodePush __rct_export__1027388]
++[CodePush __rct_export__102712]
 -[CodePush restartApp:resolve:rejecter:]
-+[CodePush __rct_export__1039389]
++[CodePush __rct_export__103913]
 -[CodePush clearUpdates]
-+[CodePush __rct_export__1052390]
++[CodePush __rct_export__105214]
 -[CodePush downloadAndReplaceCurrentBundle:]
-+[CodePush __rct_export__1064391]
++[CodePush __rct_export__106415]
 -[CodePush getNewStatusReport:rejecter:]
-+[CodePush __rct_export__1099392]
++[CodePush __rct_export__109916]
 -[CodePush recordStatusReported:]
-+[CodePush __rct_export__1104393]
++[CodePush __rct_export__110417]
 -[CodePush saveStatusReportForRetry:]
 -[CodePush didUpdateFrame:]
 -[CodePush methodQueue]
@@ -209,7 +212,7 @@ _OBJC_SELECTOR_REFERENCES_.222
 _OBJC_CLASSLIST_REFERENCES_$_.223
 _OBJC_SELECTOR_REFERENCES_.225
 _OBJC_SELECTOR_REFERENCES_.227
-___rct_export__711376.config
+___rct_export__7110.config
 _OBJC_IVAR_$_CodePush._didUpdateProgress
 _OBJC_SELECTOR_REFERENCES_.231
 _OBJC_SELECTOR_REFERENCES_.233
@@ -228,45 +231,45 @@ _OBJC_SELECTOR_REFERENCES_.254
 _OBJC_SELECTOR_REFERENCES_.262
 _OBJC_SELECTOR_REFERENCES_.266
 _OBJC_SELECTOR_REFERENCES_.268
-___rct_export__806377.config
+___rct_export__8061.config
 _OBJC_SELECTOR_REFERENCES_.271
 _OBJC_SELECTOR_REFERENCES_.273
-___rct_export__841378.config
+___rct_export__8412.config
 _OBJC_SELECTOR_REFERENCES_.278
-___rct_export__891379.config
+___rct_export__8913.config
 _OBJC_SELECTOR_REFERENCES_.283
 _OBJC_IVAR_$_CodePush._hasResumeListener
 _OBJC_SELECTOR_REFERENCES_.285
 _OBJC_SELECTOR_REFERENCES_.287
 _OBJC_SELECTOR_REFERENCES_.289
 _OBJC_SELECTOR_REFERENCES_.291
-___rct_export__942380.config
-___rct_export__950381.config
+___rct_export__9424.config
+___rct_export__9505.config
 _OBJC_SELECTOR_REFERENCES_.295
-___rct_export__958382.config
+___rct_export__9586.config
 _OBJC_SELECTOR_REFERENCES_.298
-___rct_export__970383.config
+___rct_export__9707.config
 _OBJC_SELECTOR_REFERENCES_.301
 _OBJC_SELECTOR_REFERENCES_.303
-___rct_export__985384.config
-___rct_export__992385.config
-___rct_export__1008386.config
+___rct_export__9858.config
+___rct_export__9929.config
+___rct_export__100810.config
 _OBJC_SELECTOR_REFERENCES_.312
-___rct_export__1015387.config
-___rct_export__1027388.config
-___rct_export__1039389.config
-___rct_export__1052390.config
+___rct_export__101511.config
+___rct_export__102712.config
+___rct_export__103913.config
+___rct_export__105214.config
 _OBJC_SELECTOR_REFERENCES_.322
-___rct_export__1064391.config
+___rct_export__106415.config
 _OBJC_SELECTOR_REFERENCES_.325
 _OBJC_CLASSLIST_REFERENCES_$_.326
 _OBJC_SELECTOR_REFERENCES_.328
 _OBJC_SELECTOR_REFERENCES_.330
 _OBJC_SELECTOR_REFERENCES_.332
 _OBJC_SELECTOR_REFERENCES_.334
-___rct_export__1099392.config
+___rct_export__109916.config
 _OBJC_SELECTOR_REFERENCES_.337
-___rct_export__1104393.config
+___rct_export__110417.config
 _OBJC_SELECTOR_REFERENCES_.340
 __OBJC_$_CLASS_METHODS_CodePush
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
@@ -295,9 +298,9 @@ __OBJC_$_INSTANCE_METHODS_CodePush
 __OBJC_$_INSTANCE_VARIABLES_CodePush
 __OBJC_$_PROP_LIST_CodePush
 __OBJC_CLASS_RO_$_CodePush
-/Users/xujia/Documents/GitHub/react-code-push/ios/ReactCodePush/CodePush.m
-ReactCodePush/CodePush.m
-/Users/xujia/Documents/GitHub/react-code-push/ios
+/Users/xujia/Developer/Hycan/HycanReactNative/node_modules/react-native-code-push/ios/CodePush/CodePush.m
+node_modules/react-native-code-push/ios/CodePush/CodePush.m
+/Users/xujia/Developer/Hycan/HycanReactNative
 __copy_helper_block_e8_32s40s48b
 __60-[CodePush downloadUpdate:notifyProgress:resolver:rejecter:]_block_invoke.249
 __destroy_helper_block_e8_32s40s48s
@@ -343,9 +346,9 @@ _OBJC_IVAR_$_CodePushConfig._publicKey
 __OBJC_$_INSTANCE_VARIABLES_CodePushConfig
 __OBJC_$_PROP_LIST_CodePushConfig
 __OBJC_CLASS_RO_$_CodePushConfig
-/Users/xujia/Documents/GitHub/react-code-push/ios/ReactCodePush/CodePushConfig.m
-ReactCodePush/CodePushConfig.m
-ReactCodePush/CodePush.h
+/Users/xujia/Developer/Hycan/HycanReactNative/node_modules/react-native-code-push/ios/CodePush/CodePushConfig.m
+node_modules/react-native-code-push/ios/CodePush/CodePushConfig.m
+node_modules/react-native-code-push/ios/CodePush/CodePush.h
 -[CodePushDownloadHandler init:operationQueue:progressCallback:doneCallback:failCallback:]
 -[CodePushDownloadHandler download:]
 -[CodePushDownloadHandler connection:willCacheResponse:]
@@ -420,9 +423,9 @@ _OBJC_IVAR_$_CodePushDownloadHandler._downloadUrl
 __OBJC_$_INSTANCE_VARIABLES_CodePushDownloadHandler
 __OBJC_$_PROP_LIST_CodePushDownloadHandler
 __OBJC_CLASS_RO_$_CodePushDownloadHandler
-/Users/xujia/Documents/GitHub/react-code-push/ios/ReactCodePush/CodePushDownloadHandler.m
+/Users/xujia/Developer/Hycan/HycanReactNative/node_modules/react-native-code-push/ios/CodePush/CodePushDownloadHandler.m
 -[CodePushDownloadHandler connectionDidFinishLoading:].cold.1
-ReactCodePush/CodePushDownloadHandler.m
+node_modules/react-native-code-push/ios/CodePush/CodePushDownloadHandler.m
 -[CodePushDownloadHandler connection:didReceiveData:].cold.1
 +[CodePushErrorUtils errorWithMessage:]
 +[CodePushErrorUtils isCodePushError:]
@@ -432,8 +435,8 @@ _OBJC_CLASSLIST_REFERENCES_$_.6
 __OBJC_$_CLASS_METHODS_CodePushErrorUtils
 __OBJC_METACLASS_RO_$_CodePushErrorUtils
 __OBJC_CLASS_RO_$_CodePushErrorUtils
-/Users/xujia/Documents/GitHub/react-code-push/ios/ReactCodePush/CodePushErrorUtils.m
-ReactCodePush/CodePushErrorUtils.m
+/Users/xujia/Developer/Hycan/HycanReactNative/node_modules/react-native-code-push/ios/CodePush/CodePushErrorUtils.m
+node_modules/react-native-code-push/ios/CodePush/CodePushErrorUtils.m
 +[CodePushPackage clearUpdates]
 +[CodePushPackage downloadAndReplaceCurrentBundle:]
 +[CodePushPackage downloadPackage:expectedBundleFileName:publicKey:operationQueue:progressCallback:doneCallback:failCallback:]
@@ -500,8 +503,8 @@ _OBJC_SELECTOR_REFERENCES_.182
 __OBJC_$_CLASS_METHODS_CodePushPackage
 __OBJC_METACLASS_RO_$_CodePushPackage
 __OBJC_CLASS_RO_$_CodePushPackage
-/Users/xujia/Documents/GitHub/react-code-push/ios/ReactCodePush/CodePushPackage.m
-ReactCodePush/CodePushPackage.m
+/Users/xujia/Developer/Hycan/HycanReactNative/node_modules/react-native-code-push/ios/CodePush/CodePushPackage.m
+node_modules/react-native-code-push/ios/CodePush/CodePushPackage.m
 __destroy_helper_block_e8_32s40s48s64s72s80s88s96s104s112s
 __copy_helper_block_e8_32s40b48s64s72s80s88s96s104s112b
 __126+[CodePushPackage downloadPackage:expectedBundleFileName:publicKey:operationQueue:progressCallback:doneCallback:failCallback:]_block_invoke
@@ -524,8 +527,8 @@ _OBJC_SELECTOR_REFERENCES_.59
 __OBJC_$_CLASS_METHODS_CodePushTelemetryManager
 __OBJC_METACLASS_RO_$_CodePushTelemetryManager
 __OBJC_CLASS_RO_$_CodePushTelemetryManager
-/Users/xujia/Documents/GitHub/react-code-push/ios/ReactCodePush/CodePushTelemetryManager.m
-ReactCodePush/CodePushTelemetryManager.m
+/Users/xujia/Developer/Hycan/HycanReactNative/node_modules/react-native-code-push/ios/CodePush/CodePushTelemetryManager.m
+node_modules/react-native-code-push/ios/CodePush/CodePushTelemetryManager.m
 +[CodePushUpdateUtils isHashIgnoredFor:]
 +[CodePushUpdateUtils addContentsOfFolderToManifest:pathPrefix:manifest:error:]
 +[CodePushUpdateUtils addFileToManifest:manifest:]
@@ -589,11 +592,11 @@ _OBJC_SELECTOR_REFERENCES_.210
 __OBJC_$_CLASS_METHODS_CodePushUpdateUtils
 __OBJC_METACLASS_RO_$_CodePushUpdateUtils
 __OBJC_CLASS_RO_$_CodePushUpdateUtils
-/Users/xujia/Documents/GitHub/react-code-push/ios/ReactCodePush/CodePushUpdateUtils.m
-ReactCodePush/CodePushUpdateUtils.m
-/Users/xujia/Documents/GitHub/react-code-push/ios/ReactCodePush/CodePushUtils.m
+/Users/xujia/Developer/Hycan/HycanReactNative/node_modules/react-native-code-push/ios/CodePush/CodePushUpdateUtils.m
+node_modules/react-native-code-push/ios/CodePush/CodePushUpdateUtils.m
+/Users/xujia/Developer/Hycan/HycanReactNative/node_modules/react-native-code-push/ios/CodePush/CodePushUtils.m
 CPLog
-ReactCodePush/CodePushUtils.m
+node_modules/react-native-code-push/ios/CodePush/CodePushUtils.m
 +[RCTConvert(CodePushInstallMode) CodePushInstallMode:]
 ___55+[RCTConvert(CodePushInstallMode) CodePushInstallMode:]_block_invoke
 _CodePushInstallMode:.mapping
@@ -604,10 +607,10 @@ _OBJC_CLASSLIST_REFERENCES_$_.8
 _OBJC_SELECTOR_REFERENCES_.13
 __OBJC_$_CATEGORY_CLASS_METHODS_RCTConvert_$_CodePushInstallMode
 __OBJC_$_CATEGORY_RCTConvert_$_CodePushInstallMode
-/Users/xujia/Documents/GitHub/react-code-push/ios/ReactCodePush/RCTConvert+CodePushInstallMode.m
+/Users/xujia/Developer/Hycan/HycanReactNative/node_modules/react-native-code-push/ios/CodePush/RCTConvert+CodePushInstallMode.m
 __55+[RCTConvert(CodePushInstallMode) CodePushInstallMode:]_block_invoke
-ReactCodePush/RCTConvert+CodePushInstallMode.m
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/dispatch/once.h
+node_modules/react-native-code-push/ios/CodePush/RCTConvert+CodePushInstallMode.m
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/dispatch/once.h
 +[RCTConvert(CodePushUpdateState) CodePushUpdateState:]
 ___55+[RCTConvert(CodePushUpdateState) CodePushUpdateState:]_block_invoke
 _CodePushUpdateState:.mapping
@@ -615,26 +618,153 @@ _CodePushUpdateState:.onceToken
 _OBJC_SELECTOR_REFERENCES_.11
 __OBJC_$_CATEGORY_CLASS_METHODS_RCTConvert_$_CodePushUpdateState
 __OBJC_$_CATEGORY_RCTConvert_$_CodePushUpdateState
-/Users/xujia/Documents/GitHub/react-code-push/ios/ReactCodePush/RCTConvert+CodePushUpdateState.m
+/Users/xujia/Developer/Hycan/HycanReactNative/node_modules/react-native-code-push/ios/CodePush/RCTConvert+CodePushUpdateState.m
 __55+[RCTConvert(CodePushUpdateState) CodePushUpdateState:]_block_invoke
-ReactCodePush/RCTConvert+CodePushUpdateState.m
-+[RCTReactCodePushModule moduleName]
-+[RCTReactCodePushModule load]
--[RCTReactCodePushModule methodQueue]
-+[RCTReactCodePushModule __rct_export__11376]
--[RCTReactCodePushModule hello]
-+[RCTReactCodePushModule __rct_export__15377]
--[RCTReactCodePushModule sampleMethod:numberParameter:callback:]
-___rct_export__11376.config
-___rct_export__15377.config
-__OBJC_$_CLASS_METHODS_RCTReactCodePushModule
-__OBJC_CLASS_PROTOCOLS_$_RCTReactCodePushModule
-__OBJC_METACLASS_RO_$_RCTReactCodePushModule
-__OBJC_$_INSTANCE_METHODS_RCTReactCodePushModule
-__OBJC_$_PROP_LIST_RCTReactCodePushModule
-__OBJC_CLASS_RO_$_RCTReactCodePushModule
-/Users/xujia/Documents/GitHub/react-code-push/ios/ReactCodePush/RCTReactCodePushModule.m
-ReactCodePush/RCTReactCodePushModule.m
-__OBJC_METACLASS_RO_$_PodsDummy_react_code_push
-__OBJC_CLASS_RO_$_PodsDummy_react_code_push
-/Users/xujia/Documents/GitHub/react-code-push/ios/Pods/Target Support Files/react-code-push/react-code-push-dummy.m
+node_modules/react-native-code-push/ios/CodePush/RCTConvert+CodePushUpdateState.m
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+Apple clang version 12.0.5 (clang-1205.0.22.10)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=arm64-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Xclang -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -Xclang -fno-odr-hash-protocols -mlinker-version=650.9
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.Internal.sdk
+iPhoneOS14.5.Internal.sdk
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

@@ -1,5 +1,5 @@
 framework module CodePush {
-  umbrella header "react-code-push-umbrella.h"
+  umbrella header "CodePush-umbrella.h"
 
   export *
   module * { export * }

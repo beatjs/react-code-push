@@ -1,13 +1,15 @@
 PODS:
   - Base64 (1.1.2)
+  - fmt (6.2.1)
   - JWT (3.0.0-beta.14):
     - Base64 (~> 1.1.2)
-  - react-code-push (1.2.1):
-    - Base64 (~> 1.1)
-    - JWT (~> 3.0.0-beta.12)
-    - react-ios (~> 0.64.2.0)
-    - SSZipArchive (~> 2.2.2)
-  - react-ios (0.64.2.0)
+  - react-code-push (1.4.0):
+    - Base64 (~> 1.1.2)
+    - JWT (~> 3.0.0-beta.14)
+    - react-ios (~> 0.67.4.5)
+    - SSZipArchive (~> 2.2.3)
+  - react-ios (0.67.4.5):
+    - fmt (~> 6.2.1)
   - SSZipArchive (2.2.3)
 
 DEPENDENCIES:
@@ -16,6 +18,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Base64
+    - fmt
     - JWT
     - react-ios
     - SSZipArchive
@@ -26,11 +29,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   JWT: ef71dfb03e1f842081e64dc42eef0e164f35d251
-  react-code-push: de104c043bf39d11240f37540c0f03e61dce1394
-  react-ios: 1982bce522b6657b674b46226f89fb02f4fb3566
+  react-code-push: 4e765f28a0e6095a1538bd8776be4a80b71906c6
+  react-ios: 4e53979029294cc7416b6e6ba29fafb0468e1011
   SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
 
 PODFILE CHECKSUM: 5ac34a644c2b69982c2a3049bc9700e6218ff773
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3
